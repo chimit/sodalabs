@@ -8,18 +8,18 @@ class Task extends Model
 {
     protected $guarded = [];
     protected $casts = [
-        'completed_at' => 'datetime',
+        'completed' => 'boolean',
     ];
 
     public function markCompleted()
     {
-        $this->completed_at = now();
+        $this->completed = true;
         $this->save();
     }
 
     public function markUncompleted()
     {
-        $this->completed_at = null;
+        $this->completed = false;
         $this->save();
     }
 }
