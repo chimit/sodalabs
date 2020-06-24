@@ -1,6 +1,6 @@
 # Yet another TODO app
 
-![Image of Yaktocat](/chimit/sodalabs-assignment/raw/master/todo.png)
+![Todo](https://github.com/chimit/sodalabs-assignment/blob/master/todo.png?raw=true)
 
 ## Installation instructions
 
