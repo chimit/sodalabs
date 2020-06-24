@@ -1,3 +1,7 @@
+# Yet another TODO app
+
+![Image of Yaktocat](/chimit/sodalabs-assignment/raw/master/todo.png)
+
 ## Installation instructions
 
 1. Clone the repository;
@@ -6,3 +10,4 @@
 4. Run `php artisan migrate`;
 5. Run `php artisan serve`;
 6. Open [http://127.0.0.1:8000](http://127.0.0.1:8000) (or another IP returned by the previous command) in your browser.
+
